@@ -273,7 +273,7 @@ public class HighCardinalitySeriesSender {
         final String DEFAULT_METRIC_NAME = "high-cardinality-metric";//metric name
         final String START_TIME = "2016-08-09T00:00:00.000Z";//start series time
         final Long DELTA_TIME = 15000L;//delta time between series
-        final Integer RECORDS_COUNT = 100;//series to send
+        final Integer RECORDS_COUNT = 50000;//series to send
         final Integer TAGS_CAPACITY = 50;//tags amount in series
         final Integer SENT_PORTITON = 10;//number of commnands in one sending
 
